@@ -1,0 +1,38 @@
+﻿body {
+    background-image: url("css80.jpg"); /* background-image:url( ' 要顯示的圖片網址 ' );*/
+    background-repeat:no-repeat; /* 指定背景圖案重不重複。*/
+    background-attachment: fixed; /* 指定背景圖案是否在螢幕上固定。這個屬性可能的值為 "fixed" (當網頁捲動時，背景圖案固定不動) 以及 "scroll" (當網頁捲動時，背景圖案會跟著移動)。*/
+    background-position: center center; /* 用來指定背景圖案的位置第一個字為 [top,center,bottom] 中三選一，而第二個字由 [left,center,right] 中三選一。 */
+    background-size:cover; /* 背景圖片的尺寸 搭配background-image 匯入背景圖片使用 不能用在被景色上 */
+    /* cover 整個「不變形」、「寬高等比例」、「在必要時局部裁切」的鋪滿整個容器空間*/
+}
+.container-intro{
+    padding:16px;
+    font-size: 20px;
+}
+.column {
+    border: 1.2mm outset rgba(157, 210, 248, 0.6); border-radius: 8px;
+    stroke-opacity: 50%;
+}
+.h3title{
+    text-align: center;font-size: 24px;
+    align-content: center; margin-top:10px; margin-bottom: 10px ;
+}
+
+.title{
+    border: 1.2mm outset #D0FCB3; border-radius: 8px;
+    text-align: center; font-size: 24px;  
+}
+
+.list {
+    font-size: 18px;
+}
+.p_cont {
+    border: 0.5px none ; font-size: 18px;
+    margin-top: 5px; margin-left: 8px; margin-right: 8px;
+    /*段落文字跟左右兩邊有點距離 */
+    text-indent:36px; text-align:justify;
+    /* text-indent:20px段落開頭留空白 空多少px; text-align:justify 段落左右對齊 */
+    line-height: 1.6;  
+    /*行距, 1.6是建議的參數 */
+}
